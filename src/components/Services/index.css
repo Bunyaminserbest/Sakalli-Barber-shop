@@ -1,0 +1,25 @@
+@media only screen and (max-width: 375px) {
+  html {
+    font-size: 20%;
+  }
+  .serviceBtn {
+    width: 50px !important;
+    height: 12.5px !important;
+  }
+  .serviceDiv {
+    margin-top: 40px !important;
+  }
+  .serviceImg {
+    width: 40%;
+  }
+  .serviceBox {
+    width: 60%;
+  }
+  .serviceTitre {
+    width: 90px !important;
+  }
+  .btnDiv {
+    left: 150px;
+    width: unset !important;
+  }
+}

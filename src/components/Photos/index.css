@@ -1,0 +1,15 @@
+@media only screen and (max-width: 375px) {
+  html {
+    font-size: 20%;
+  }
+  .photoDiv {
+    margin-top: 40px !important;
+  }
+  .photoTitre {
+    width: 100px !important;
+  }
+  .photoImg {
+    width: 120px !important;
+    height: 128px !important;
+  }
+}

@@ -1,0 +1,79 @@
+import React, { Component } from 'react';
+
+const Titre = ({ bgcolor, color, width, height }) => (
+  <h1
+    className='p-2 ml-5 pl-3'
+    style={{
+      backgroundColor: bgcolor,
+      color: color,
+      width: width,
+      height: height,
+      fontSize: '4rem'
+    }}
+  >
+    Photos
+  </h1>
+);
+
+const Pict = ({ position, top, left, width, height, require }) => (
+  <div className='container'>
+    <img
+      style={{ position: position, width: width, height: height }}
+      src={require}
+      alt='pict1'
+    />
+  </div>
+);
+
+export class Photos extends Component {
+  render() {
+    return (
+      <div style={{ width: '100%', marginTop: '100px' }}>
+        <Titre bgcolor='rgba(255,255,255,0.1)' color='white' width='400px' />
+
+        <div
+          className='d-flex container justify-content-around mt-5'
+          style={{ width: '1300px' }}
+        >
+          <Pict
+            width='365px'
+            height='450px'
+            require={require('../../img/17.jpg')}
+          />
+          <Pict
+            width='365px'
+            height='450px'
+            require={require('../../img/17.jpg')}
+          />
+          <Pict
+            width='365px'
+            height='450px'
+            require={require('../../img/17.jpg')}
+          />
+        </div>
+        <div
+          className='d-flex container justify-content-around mt-5'
+          style={{ width: '1300px' }}
+        >
+          <Pict
+            width='365px'
+            height='450px'
+            require={require('../../img/17.jpg')}
+          />
+          <Pict
+            width='365px'
+            height='450px'
+            require={require('../../img/17.jpg')}
+          />
+          <Pict
+            width='365px'
+            height='450px'
+            require={require('../../img/17.jpg')}
+          />
+        </div>
+      </div>
+    );
+  }
+}
+
+export default Photos;

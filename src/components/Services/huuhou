@@ -1,0 +1,87 @@
+  render() {
+    return (
+      <div className='container-fluid' style={{ marginTop: '120px' }}>
+        <div className='row'>
+          <div className='col-md-4'></div>
+          <div className='col-md-8'>
+            <button
+              className='mx-3'
+              onClick={() => this.handleClick(1)}
+              style={{
+                backgroundColor: this.state.serviceBgColor,
+                width: '200px',
+                fontSize: '1.6rem',
+                outline: 'none'
+              }}
+            >
+              Services
+            </button>
+
+            <button
+              className='mx-3'
+              onClick={() => this.handleClick(2)}
+              style={{
+                backgroundColor: this.state.priceBgColor,
+                width: '200px',
+                fontSize: '1.6rem',
+                outline: 'none'
+              }}
+            >
+              Prix
+            </button>
+
+            <button
+              className='mx-3'
+              onClick={() => this.handleClick(3)}
+              style={{
+                backgroundColor: this.state.promotionBgColor,
+                width: '200px',
+                fontSize: '1.6rem',
+                outline: 'none'
+              }}
+            >
+              Promotions
+            </button>
+          </div>
+        </div>
+
+        <div className='row'>
+          <ImageTarifs />
+
+          <div
+            className='p-5 col-md-8'
+            style={{
+              backgroundColor: 'rgba(90,77,16,0.25)',
+
+              padding: 'unset'
+            }}
+          >
+            <h1
+              className='d-flex pl-3 mt-4'
+              style={{
+                color: 'white',
+                backgroundColor: 'rgba(0,0,0,0.5)',
+                width: '300px',
+                fontSize: '4rem'
+              }}
+            >
+              {this.state.title}
+            </h1>
+
+            <p
+              className='container mt-5'
+              style={{
+                color: 'white',
+                fontSize: '1.4rem',
+                fontFamily:
+                  "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"
+              }}
+            >
+              {this.state.content}
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}

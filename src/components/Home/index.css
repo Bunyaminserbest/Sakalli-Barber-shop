@@ -1,0 +1,33 @@
+@media only screen and (max-width: 375px) {
+  html {
+    font-size: 20%;
+  }
+  .noDisplay {
+    display: none;
+  }
+  .homeImg {
+    height: 130px !important;
+  }
+  .homeTitre {
+    width: 170px !important;
+    height: 25px !important;
+    left: 20px !important;
+    top: 95px !important;
+  }
+  .homeText {
+    top: 40px !important;
+    left: 15px !important;
+  }
+  .homeContact {
+    top: 40px !important;
+    width: 58px !important;
+    height: 12px !important;
+  }
+
+  .ratingG {
+    width: 75px !important;
+  }
+  .ratingF {
+    width: 75px !important;
+  }
+}

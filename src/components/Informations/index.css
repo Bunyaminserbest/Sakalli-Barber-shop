@@ -1,0 +1,12 @@
+@media only screen and (max-width: 375px) {
+  .infoTitre {
+    width: 100px !important;
+  }
+  .infoDiv {
+    display: inherit !important;
+  }
+  .infoMap {
+    margin-top: 20px;
+    height: 326px;
+  }
+}

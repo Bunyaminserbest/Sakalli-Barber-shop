@@ -1,0 +1,22 @@
+.logo {
+  width: 138px;
+  height: 157px;
+}
+
+button {
+  color: whitesmoke;
+  border: none;
+  height: 50px;
+  background-color: transparent;
+  font-size: 1.7rem;
+}
+
+@media only screen and (max-width: 375px) {
+  .noDisplay {
+    display: none;
+  }
+  .logo {
+    width: 69px !important;
+    height: 79px !important;
+  }
+}
