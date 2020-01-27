@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Sakalli-Barber-shop/static/css/main.61a546f9.chunk.css",
+    "main.js": "/Sakalli-Barber-shop/static/js/main.c7853bf8.chunk.js",
+    "main.js.map": "/Sakalli-Barber-shop/static/js/main.c7853bf8.chunk.js.map",
+    "runtime-main.js": "/Sakalli-Barber-shop/static/js/runtime-main.02abe164.js",
+    "runtime-main.js.map": "/Sakalli-Barber-shop/static/js/runtime-main.02abe164.js.map",
+    "static/js/2.1ca3bfdd.chunk.js": "/Sakalli-Barber-shop/static/js/2.1ca3bfdd.chunk.js",
+    "static/js/2.1ca3bfdd.chunk.js.map": "/Sakalli-Barber-shop/static/js/2.1ca3bfdd.chunk.js.map",
+    "index.html": "/Sakalli-Barber-shop/index.html",
+    "precache-manifest.9e4f91fd7c39801ebe78ab9168a79cc6.js": "/Sakalli-Barber-shop/precache-manifest.9e4f91fd7c39801ebe78ab9168a79cc6.js",
+    "service-worker.js": "/Sakalli-Barber-shop/service-worker.js",
+    "static/css/main.61a546f9.chunk.css.map": "/Sakalli-Barber-shop/static/css/main.61a546f9.chunk.css.map",
+    "static/js/2.1ca3bfdd.chunk.js.LICENSE": "/Sakalli-Barber-shop/static/js/2.1ca3bfdd.chunk.js.LICENSE",
+    "static/media/17.jpg": "/Sakalli-Barber-shop/static/media/17.76f4be08.jpg",
+    "static/media/6.jpg": "/Sakalli-Barber-shop/static/media/6.73667631.jpg",
+    "static/media/Bun-blanc.png": "/Sakalli-Barber-shop/static/media/Bun-blanc.c81fa3a8.png",
+    "static/media/facebook.svg": "/Sakalli-Barber-shop/static/media/facebook.c205ff41.svg",
+    "static/media/google.svg": "/Sakalli-Barber-shop/static/media/google.4b950847.svg",
+    "static/media/tarifs.png": "/Sakalli-Barber-shop/static/media/tarifs.8b95bf45.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.02abe164.js",
+    "static/js/2.1ca3bfdd.chunk.js",
+    "static/css/main.61a546f9.chunk.css",
+    "static/js/main.c7853bf8.chunk.js"
+  ]
+}
